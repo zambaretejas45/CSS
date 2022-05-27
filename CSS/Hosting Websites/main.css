@@ -1,0 +1,110 @@
+/* rule 
+        selector 
+section{
+    background: #ff1b68;
+} */
+
+
+/* Style by Element <Tag Selector> */
+
+* {
+    /* For fit page */
+    box-sizing: border-box
+}
+
+body {
+    font-family: 'montserrat', sans-serif;
+    margin: 0;
+}
+
+/* h1{
+    color: white;
+    font-family: 'Anton', sans-serif;
+} */
+
+/* ----------------------------------------------------------------------------------------------- */
+.main-header{
+    background:#2ddf5c;
+    padding: 8px 16px;
+    width:100%;
+}
+.main-header > div{
+    display: inline-block;
+}
+.main-header__brand {
+    text-decoration:none;
+    font-weight:bold;
+    color: #0e4f1f;
+}
+.main-nav{
+    display : inline-block;
+    text-align: right;
+    width: 90%;
+}
+.main-nav__items{
+    margin: 0;
+    padding: 0;
+    list-style: none;  
+}
+
+ /* Combinator */
+.main-nav__item{
+    display: inline-block;
+    margin: 0 16px;
+}
+
+.main-nav__item a {
+    text-decoration: none;
+    color: #0e4f1f;
+    font-weight: bold;
+    padding: 3px 0px;
+}
+
+.main-nav__item__cta a {
+    color: white;
+    background: #ff1b68;
+    padding:5px 8px;
+    border-radius: 8px;
+}
+
+
+/*-------------------------------------------------------------------------------------------------------- */
+
+.main-nav__item a:hover,
+.main-nav__item a:active  {
+    color: white;
+    border-bottom: 2px solid white;
+}
+
+
+.main-nav__item__cta a:hover,
+.main-nav__item__cta a:active{
+    background: white;
+    color: #ff1b68;
+    border: none;
+}
+
+/* Selector by ID */
+#product-overview {
+    background: url(freedom.jpg);
+    /* background: #ff1b68; */
+    width: 100%;
+    height: 500px;
+    padding: 20px;
+    /* border: 5px black solid; */
+
+
+    /* margin: 20px; */
+}
+
+
+/* Combinators */
+#product-overview h1 {
+    color: white;
+    font-family: 'Anton', sans-serif;
+}
+
+/* Selecector by Class */
+.section-title {
+    color: #2ddf5c;
+}
